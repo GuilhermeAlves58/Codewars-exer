@@ -11,9 +11,9 @@ package Codewars_ex;
 public class ReturnNegative {
     public static int makeNegative(int x) {
         if (x > 0) {
-            return -x;  // make it negative
+            return -x;
         } else {
-            return x;   // already negative or zero
+            return x;
         }
     }
     public static void main(String[] args) {
