@@ -1,4 +1,4 @@
-package Codewars_ex;
+package Codewars_ex.fundamentals;
 ///You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 ///
 /// a can contain numbers or strings. x can be either.
