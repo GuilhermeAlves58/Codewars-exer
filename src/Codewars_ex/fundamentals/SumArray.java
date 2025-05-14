@@ -1,4 +1,4 @@
-package Codewars_ex;
+package Codewars_ex.fundamentals;
 
 public class SumArray {
     public static double sum(double[] numbers){

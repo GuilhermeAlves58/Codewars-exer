@@ -1,4 +1,4 @@
-package Codewars_ex;
+package Codewars_ex.fundamentals;
 /// Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
 ///
 /// Examples:

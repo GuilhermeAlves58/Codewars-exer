@@ -1,4 +1,4 @@
-package Codewars_ex;
+package Codewars_ex.fundamentals;
 
 public class SquareNSum {
     public static int squareSum(int[] numbers) {
