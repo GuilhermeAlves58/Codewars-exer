@@ -22,18 +22,16 @@ import java.util.List;
                     case 'o':
                         output.add(value);
                         break;
-                    // Other characters are ignored
+
                 }
             }
 
-            // Convert List<Integer> to int[]
             return output.stream().mapToInt(i -> i).toArray();
         }
 
-        // Optional main method for testing
         public static void main(String[] args) {
-            int[] result1 = parse("iiisdoso"); // Should print [8, 64]
-            int[] result2 = parse("iiisdosodddddiso"); // Should print [8, 64, 3600]
+            int[] result1 = parse("iiisdoso");
+            int[] result2 = parse("iiisdosodddddiso");
 
             for (int i : result1) {
                 System.out.print(i + " ");
